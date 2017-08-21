@@ -1,0 +1,121 @@
+/* Base css */
+body{
+	color: #fff;
+	background: #a648ff;
+background: -moz-linear-gradient(left, #a648ff 0%, #5b1eff 100%);
+background: -webkit-linear-gradient(left, #a648ff 0%,#5b1eff 100%);
+background: linear-gradient(to right, #a648ff 0%,#5b1eff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a648ff', endColorstr='#5b1eff',GradientType=1 )
+ 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin: 0 0 15px;
+font-weight: 700;
+}
+body{
+	font-family: 'open Sans', sans-serif;
+}
+a:hover{text-decoration: none;}
+.section-padding{
+	padding: 70px 0;
+}
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 13px;
+}
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0;
+}
+.main-menu li {
+    display: inline-block;
+    position: relative;
+}
+.main-menu li a {
+    display: block;
+    padding: 16px;
+    color: #fff;
+}
+a{
+	color: #fff;
+}
+.logo-area{
+
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin: 20px 0;
+    color: #fff;
+  
+    position: relative;
+    border: 2px solid  #32b0fd;
+background: -moz-linear-gradient(45deg, #32b0fd 0%, #e000ff 100%);
+background: -webkit-linear-gradient(45deg, #32b0fd 0%,#e000ff 100%);
+background: linear-gradient(45deg, #32b0fd 0%,#e000ff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32b0fd', endColorstr='#e000ff',GradientType=1 );
+  
+     
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-top: -3px;
+    text-align: center;
+}
+.boxed-btn {
+    position: relative;
+}
+
+.button {
+   position: absolute;
+    width: 224px;
+    height: 64px;
+    padding: 15px;
+    margin-top: 50px;
+    border: 2px solid #fff;
+    top: 26px;
+    right: -110px;
+    border-radius: 30px 0 0 30px;
+    line-height: 31px;
+    text-align: center;
+    font-size: 16px
+}
+.button a:hover{
+    color: #fff;
+}
+
+.heading-text {
+    margin-top: 50px;
+    font-size: 55px;
+}
+
+.text {
+    margin-top: 20px;
+}
+.icon-section i {
+    font-size: 30px;
+}
+
+.icon-heading {
+    margin-top: 30px;
+}
+
+.icon-text {
+    margin-top: 10px;
+}
